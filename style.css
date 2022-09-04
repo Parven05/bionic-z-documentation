@@ -1,0 +1,33 @@
+* {
+  background-color: black;
+  color: aliceblue;
+}
+
+.container {
+  border: 5px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.5em, 0.5em, 0.5em, 0.5em;
+   
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.description {
+  text-align: center;
+}
+
+.images {
+display: grid;
+/* grid-row: 1; */
+gap: 5px;
+align-items: center;
+justify-items: center;
+/* grid-template-columns: 50%, 50%, 50%; */
+
+}
+
