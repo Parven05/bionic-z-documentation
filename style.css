@@ -29,10 +29,19 @@ header {
   /* border-radius: 20px; */
 }
 
-h1 {
+.h1 {
   text-transform: uppercase;
   background: none;
   color: black;
+}
+
+
+.h1-1 {
+  text-transform: uppercase;
+  background: none;
+  color: black;
+  text-align: left;
+  margin-left: 0.5em;
 }
 
 .title {
@@ -99,12 +108,12 @@ h1 {
 }
 
 .audio-container {
-    text-align: center;
-    margin-top: 0.5em;
+    text-align: left;
     overflow: hidden;
     border:10px solid whitesmoke;
     margin-inline: 0.5em;
     margin-top: 0;
+    padding-left: 0.5em;
     
   }
 
@@ -173,3 +182,4 @@ a:visited {
   justify-content: left;
   text-align: left;
 }
+
