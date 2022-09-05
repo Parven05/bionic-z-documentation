@@ -3,6 +3,12 @@
   color: aliceblue;
 }
 
+header {
+  background-color: red;
+  text-align: center;
+  padding: 5px;
+}
+
 .container {
   border: 5px solid blue;
   display: flex;
@@ -10,6 +16,7 @@
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+  text-align: center;
 }
 
 .subtitle {
@@ -40,4 +47,8 @@
 
 .video-container > video {
   border: 5px solid wheat;
+}
+
+.description-title {
+  margin-left: 0.5em;
 }
