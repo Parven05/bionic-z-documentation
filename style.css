@@ -108,14 +108,12 @@ header {
 }
 
 .audio-container {
-    text-align: left;
-    overflow: hidden;
-    border:10px solid whitesmoke;
-    margin-inline: 0.5em;
-    margin-top: 0;
-    padding-left: 0.5em;
-    
-  }
+  text-align: left;
+  overflow: hidden;
+  border:10px solid whitesmoke;
+  margin-inline: 0.5em;
+      
+}
 
 .video-container video {
   padding: 0.1em;
@@ -159,6 +157,9 @@ a:visited {
 
 .audio-item {
   margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  
+  
 }
 
 #excel-sheet-logo {
