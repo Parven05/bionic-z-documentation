@@ -28,6 +28,15 @@ header {
   text-align: center;
 }
 
+h1 {
+  background: none;
+  color: black;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
 .subtitle {
   text-transform: uppercase;
 }
@@ -35,11 +44,28 @@ header {
 .description {
   text-align: center;
   margin-inline-start: 0.2em;
-  
 }
 
 .description-title {
   margin-left: 0.5em;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+#idea-icon {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+}
+
+.name-tag {
+  border: 2em solid red;
 }
 
 .core-mechanic {
@@ -59,8 +85,8 @@ header {
   text-align: center;
   margin-top: 0.5em;
   overflow: hidden;
+  border: 5px solid hsl(199,90%,34%);
+  margin-inline: 0.5em;
+  margin-top: 0;
 }
 
-.video-container video {
-  border: 5px solid hsl(199,90%,34%);
-}
