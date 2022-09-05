@@ -86,6 +86,21 @@ header {
   margin-bottom: 00.5em;
 }
 
+#excel-sheet-logo {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+#play-store-logo {
+  width: 95px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+
 .core-mechanic {
   display: flex;
   flex-direction: column;
@@ -148,26 +163,12 @@ a:visited {
   text-align: left;
 }
 
-#play-store-logo {
-  width: 95px;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 1em;
-}
 
 .audio-item {
   margin-bottom: 0.5em;
-  margin-top: 0.5em;
-  
-  
+  margin-top: 0.5em; 
 }
 
-#excel-sheet-logo {
-  width: 250px;
-  height: auto;
-  object-fit: cover;
-  margin-bottom: 1em;
-}
 
 .story-container {
   margin-inline: 1.5em;
