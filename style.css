@@ -52,3 +52,10 @@ header {
 .description-title {
   margin-left: 0.5em;
 }
+
+.core-mechanic {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
