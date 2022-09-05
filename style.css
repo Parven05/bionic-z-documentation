@@ -11,7 +11,7 @@ body {
 header {
   margin-top: 2em;
   margin-inline: 0.5em;
-  background-color: hsl(0,0%,85%);
+  background-color: whitesmoke;
   color: black;
   text-align: center;
   padding: 5px;
@@ -19,13 +19,14 @@ header {
 
 .container {
   margin-inline: 0.5em;
-  border:5px solid hsl(199,90%,34%);
+  border:10px solid whitesmoke;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
   text-align: center;
+  /* border-radius: 20px; */
 }
 
 h1 {
@@ -99,14 +100,27 @@ h1 {
   color: lightblue;
 }
 
-#map-link {
+a {
   color: lightgray;
 }
 
-#map-link:hover {
+a:hover {
   color: lightslategray;
 }
 
-#map-link:visited {
+a:visited {
   color: lightslategray;
 } 
+
+.description-subtitle {
+  text-transform: uppercase;
+  margin-left: 0.5em;
+  color: lightpink
+}
+
+.design-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+}
