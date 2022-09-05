@@ -9,8 +9,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0.5em, 0.5em, 0.5em, 0.5em;
-   
+  overflow: hidden;
 }
 
 .subtitle {
@@ -21,13 +20,24 @@
   text-align: center;
 }
 
-.images {
-display: grid;
-/* grid-row: 1; */
-gap: 5px;
-align-items: center;
-justify-items: center;
-/* grid-template-columns: 50%, 50%, 50%; */
-
+@media screen and (min-width: 100px) {
+  .container {overflow: hidden;}
+  .video-container {flex-direction: column;} 
 }
 
+@media screen and (min-width: 1250px) {
+  .container {overflow: hidden;}
+  .video-container {flex-direction: row;}
+  
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.video-container > video {
+  border: 5px solid wheat;
+}
