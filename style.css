@@ -53,7 +53,7 @@ h1 {
 .description-title {
   text-transform: uppercase;
   margin-left: 0.5em;
-  color: lightgreen
+  color: lightgreen;
 }
 
 .icon-container {
@@ -159,4 +159,19 @@ a:visited {
   height: auto;
   object-fit: cover;
   margin-bottom: 1em;
+}
+
+.story-container {
+  margin-inline: 1.5em;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: darkviolet;
+  border-radius: 5px;
+}
+
+.game-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
 }
