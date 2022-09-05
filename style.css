@@ -35,19 +35,23 @@ h1 {
 
 .title {
   text-transform: uppercase;
+  color: lightsalmon
 }
 
 .subtitle {
   text-transform: uppercase;
+  color: lightcoral;
 }
 
 .description {
   text-align: center;
-  margin-inline-start: 0.2em;
+  margin-inline-start: 0.5em;
 }
 
 .description-title {
+  text-transform: uppercase;
   margin-left: 0.5em;
+  color: lightgreen
 }
 
 .icon-container {
@@ -62,10 +66,6 @@ h1 {
   height: auto;
   object-fit: cover;
   margin-bottom: 0.5em;
-}
-
-.name-tag {
-  border: 2em solid red;
 }
 
 .core-mechanic {
@@ -88,5 +88,25 @@ h1 {
   border: 5px solid hsl(199,90%,34%);
   margin-inline: 0.5em;
   margin-top: 0;
+  
 }
 
+.video-container video {
+  padding: 0.1em;
+}
+
+.label {
+  color: lightblue;
+}
+
+#map-link {
+  color: lightgray;
+}
+
+#map-link:hover {
+  color: lightslategray;
+}
+
+#map-link:visited {
+  color: lightslategray;
+} 
