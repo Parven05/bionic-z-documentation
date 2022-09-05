@@ -1,16 +1,25 @@
 * {
-  background-color: black;
+  font-family: Shadow Into Light, cursive;
+  background-color: hsl(0,0%,13%);
   color: aliceblue;
 }
 
+body {
+  margin-bottom: 2em;
+}
+
 header {
-  background-color: red;
+  margin-top: 2em;
+  margin-inline: 0.5em;
+  background-color: hsl(0,0%,85%);
+  color: black;
   text-align: center;
   padding: 5px;
 }
 
 .container {
-  border: 5px solid blue;
+  margin-inline: 0.5em;
+  border:5px solid hsl(199,90%,34%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,28 +34,8 @@ header {
 
 .description {
   text-align: center;
-}
-
-@media screen and (min-width: 100px) {
-  .container {overflow: hidden;}
-  .video-container {flex-direction: column;} 
-}
-
-@media screen and (min-width: 1250px) {
-  .container {overflow: hidden;}
-  .video-container {flex-direction: row;}
+  margin-inline-start: 0.2em;
   
-}
-
-.video-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5em;
-}
-
-.video-container > video {
-  border: 5px solid wheat;
 }
 
 .description-title {
@@ -58,4 +47,20 @@ header {
   flex-direction: column;
   justify-content: left;
   text-align: left;
+}
+
+@media screen and (min-width: 0px) and (max-width: 390px) {
+  .video-container video {
+    width: 250px;
+  } 
+}  
+
+.video-container {
+  text-align: center;
+  margin-top: 0.5em;
+  overflow: hidden;
+}
+
+.video-container video {
+  border: 5px solid hsl(199,90%,34%);
 }
